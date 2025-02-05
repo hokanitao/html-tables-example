@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>HTML Table Mockups</title>
+</head>
+<body>
+  <h1>Semester &#8545; Schedule</h1>
+  <div>
+    <table>
+      <caption>Fig: Semester 2 Course Schedule</caption>
+      <thead>
+        <tr>
+          <th id="course">Course</th>
+          <th id="time" scope="colgroup" colspan="2" headers="course">Time</th>
+          <th id="room" scope="col" headers="course">Room</th>
+          <th id="day" scope="col" headers="course">Day</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="english" scope="rowgroup" rowspan="2" headers="course">English &#8545;</th>
+          <td headers="english time">9:00</td>
+          <td headers="english time">11:00</td>
+          <td headers="english room">L2201</td>
+          <td headers="english day">Monday</td>
+        </tr>
+        <tr>
+          <td headers="english time">9:00</td>
+          <td headers="english time">11:00</td>
+          <td headers="english room">L2201</td>
+          <td headers="english day">Wednesday</td>
+        </tr>
+        <tr>
+          <th id="geography" scope="row" headers="course">Geography</th>
+          <td headers="geography time">11:00</td>
+          <td headers="geography time">12:45</td>
+          <td headers="geography room">G107</td>
+          <td headers="geography day">Tuesday</td>
+        </tr>
+        <tr>
+          <th id="biology" scope="row" headers="course">Biology</th>
+          <td headers="biology time">9:00</td>
+          <td headers="biology time">11:00</td>
+          <td headers="biology room">B302</td>
+          <td headers="biology day" id="friday">Friday</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
