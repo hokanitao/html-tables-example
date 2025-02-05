@@ -74,7 +74,7 @@ h1 {
   color: black;
 }
 
-h2 {
+.section2 h2 {
   width: 715px;
   text-align: center;
 }
@@ -117,3 +117,47 @@ h2 {
   width: 150px;
 }
 
+.section3 h2 {
+  width: 850px;
+  text-align: center;
+}
+.section3 table {
+  background-color: white;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.section3 tbody td img {
+  height: 100px;
+  padding: 0;
+}
+
+.section3 thead {
+  background-color: #ffe79a;
+  margin: 2%;
+}
+
+.section3 caption {
+  caption-side: bottom;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.section3 th, .section3 td {
+  padding: 20px 30px 20px 30px;
+  border: 1px solid #ffa952;
+}
+
+.section3 table td:first-child {
+  border-right: 0;
+  padding: 0;
+}
+
+.section3 table td:nth-child(2),
+.section3 table th:nth-child(2) {
+  border-left: 0;
+}
+
+.section3 table td:nth-child(2) {
+  padding-left: 0;
+}
